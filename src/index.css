@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Professional Theme (Default) */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 217 91% 70%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 217 91% 95%;
+    --accent-foreground: 217 91% 60%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 217 91% 60%;
+    --radius: 0.75rem;
+    
+    /* Portfolio specific tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(217 91% 60%) 0%, hsl(217 91% 70%) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+    --glow-shadow: 0 10px 40px -10px hsl(217 91% 60% / 0.3);
+    --skill-badge: 217 91% 95%;
+    --skill-badge-foreground: 217 91% 60%;
+    --section-bg: 217 91% 97%;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Theme */
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 6%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 217 91% 70%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 25%;
+    --accent-foreground: 217 91% 60%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 217 91% 60%;
+    
+    --hero-gradient: linear-gradient(135deg, hsl(222.2 84% 4.9%) 0%, hsl(217.2 32.6% 17.5%) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(222.2 84% 6%) 0%, hsl(217.2 32.6% 17.5%) 100%);
+    --glow-shadow: 0 10px 40px -10px hsl(217 91% 60% / 0.4);
+    --skill-badge: 217.2 32.6% 25%;
+    --skill-badge-foreground: 217 91% 60%;
+    --section-bg: 222.2 84% 6%;
+  }
+
+  .creative {
+    /* Creative Theme - Purple gradients */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 270 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 300 91% 70%;
+    --secondary: 270 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 270 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 270 91% 95%;
+    --accent-foreground: 270 91% 60%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 270 31.8% 91.4%;
+    --input: 270 31.8% 91.4%;
+    --ring: 270 91% 60%;
+    
+    --hero-gradient: linear-gradient(135deg, hsl(270 91% 60%) 0%, hsl(300 91% 70%) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(270 40% 98%) 100%);
+    --glow-shadow: 0 10px 40px -10px hsl(270 91% 60% / 0.3);
+    --skill-badge: 270 91% 95%;
+    --skill-badge-foreground: 270 91% 60%;
+    --section-bg: 270 91% 97%;
+  }
+
+  .minimal {
+    /* Minimal Theme - Green nature inspired */
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 142 76% 46%;
+    --secondary: 142 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 142 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 142 76% 95%;
+    --accent-foreground: 142 76% 36%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 142 31.8% 91.4%;
+    --input: 142 31.8% 91.4%;
+    --ring: 142 76% 36%;
+    
+    --hero-gradient: linear-gradient(135deg, hsl(142 76% 36%) 0%, hsl(142 76% 46%) 100%);
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(142 40% 98%) 100%);
+    --glow-shadow: 0 10px 40px -10px hsl(142 76% 36% / 0.3);
+    --skill-badge: 142 76% 95%;
+    --skill-badge-foreground: 142 76% 36%;
+    --section-bg: 142 76% 97%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .transition-theme {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+}
