@@ -17,7 +17,7 @@ export function Projects() {
   const projects = [
     {
       title: "Chatty - A Real Time Chat Application",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "Chatty is a full-stack real-time consultation platform that connects users with professional consultants via video calls and live chat. The platform supports both subscription-based and pay-per-session models, allowing users to book sessions, interact with experts, and provide feedback seamlessly.",
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Zustand","Tailwind CSS","Cloudinary","Daisy UI","Render","JWT"],
       github: "https://github.com/viswa15/Chat-Application.git",
       live: "https://chat-application-4aox.onrender.com/",
@@ -26,7 +26,7 @@ export function Projects() {
     },
     {
       title: "BeMyGuest - A Wedding Guest Booking Service",
-      description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      description: "Be My Guest is a full-stack wedding planning web application designed to help couples efficiently organize and share details of their wedding events. The platform allows users to create personalized wedding profiles, manage multi-day event details, and share ceremony guides with guests in a beautifully structured format.",
       technologies: ["React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "Stripe","Render"],
       github: "https://github.com/viswa15/Chat-Application.git",
       live: "https://bemyguest-8bla.onrender.com/",
@@ -35,7 +35,7 @@ export function Projects() {
     },
     {
       title: "EigenLayer Restaking API",
-      description: "Interactive weather application with location-based forecasts, historical data visualization, and responsive design.",
+      description: "A backend API simulating the restaking functionality on EigenLayer. It allows users to delegate or restake their ETH tokens with validators.",
       technologies: ["Node.js", "ether.js", "MongoDB", "Express.js","Render"],
       github: "https://github.com/viswa15/EigenLayer-Restaking-API.git",
       live: "",
@@ -44,7 +44,7 @@ export function Projects() {
     },
     {
       title: "Advanced Authentication API",
-      description: "Analytics platform for social media metrics with data visualization, automated reporting, and multi-platform integration.",
+      description: "A secure backend API that supports user registration, login, JWT-based authentication, password hashing, and role-based access.",
       technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB", "Express.js", "Zustand", "Render", "JWT", "Nodemailer"],
       github: "https://github.com/viswa15/Authentication-App",
       live: "",
@@ -53,7 +53,7 @@ export function Projects() {
     },
     {
       title: "Blogs Management System",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "A scalable backend API for managing blog content. It supports blog creation, editing, deletion, and user-specific blog feeds.",
       technologies: ["Node.js", "MongoDB", "Express.js", "Nodemailer"],
       github: "https://github.com/viswa15/Blogs-Management-API.git",
       live: "",
@@ -62,7 +62,7 @@ export function Projects() {
     },
     {
       title: "Emoji Game",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "A fun and interactive emoji memory game. The goal is to click each emoji only once. The game resets if an emoji is clicked twice, and a success screen appears on winning.",
       technologies: ["React", "CSS"],
       github: "https://github.com/viswa15/Emoji-Game.git",
       live: "https://emojigametvt.ccbp.tech/",
@@ -71,7 +71,7 @@ export function Projects() {
     },
     {
       title: "NxtTrendz - A E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "NxtTrendz is a fully responsive eCommerce web application that replicates the core features of leading platforms like Amazon and Flipkart. The project emphasizes user-friendly design, route protection, and seamless product exploration, built entirely with modern frontend technologies.",
       technologies: ["React", "Node.js", "Express.js", "Cookies", "SQlite"],
       github: "https://github.com/viswa15/Nxt-trendz.git",
       live: "https://tvtnxttrendz.ccbp.tech/",
@@ -80,7 +80,7 @@ export function Projects() {
     },
     {
       title: "NxtWatch - A Video Streaming Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "NxtWatch is a YouTube-inspired video streaming frontend application. It allows users to explore, search, and watch videos using public APIs. The platform features dark/light theme toggling and authentication-protected routes.",
       technologies: ["React", "Node.js", "Express.js", "Cookies", "SQlite"],
       github: "https://github.com/viswa15/Nxt-Watch.git",
       live: "https://viswanxtwatch.ccbp.tech/",
@@ -89,7 +89,7 @@ export function Projects() {
     },
     {
       title: "Jobby App - A Job Portal",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "Jobby App is a frontend clone of a job search portal like Indeed/LinkedIn Jobs. Users can search, filter, and view job listings with full details after logging in.",
       technologies: ["React", "Node.js", "Express.js", "Cookies", "SQlite"],
       github: "https://github.com/viswa15/jobby-app.git",
       live: "https://tvtsjobbyapp.ccbp.tech/",
@@ -98,7 +98,7 @@ export function Projects() {
     },
     {
       title: "Speed Typing Game",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "A speed typing test app that calculates your typing speed in real time.",
       technologies: ["HTML","CSS","Javascript"],
       github: "https://github.com/viswa15/Speed-Typing-Test.git",
       live: "https://viswatypingtest.ccbp.tech/",
@@ -107,7 +107,7 @@ export function Projects() {
     },
     {
       title: "Airport Information API",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      description: "A backend API for managing airport operations including flights, passengers, staff, and terminals.",
       technologies: ["Node.js", "SQLite", "Express.js", "csvtojson","RESTAPI","TypeORM"],
       github: "https://github.com/viswa15/Airport-Information-API.git",
       live: "",
@@ -115,8 +115,8 @@ export function Projects() {
       category : "Backend"
     },
     {
-      title: "World Around You",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order tracking.",
+      title: "WikiGlobe",
+      description: "Welcome to WikiGlobe, where boundless knowledge awaits at your fingertips. Embark on an enlightening journey through the vast expanse of the Wikipedia universe with our intuitive and user-friendly search app.",
       technologies: ["HTML","CSS","Javascript"],
       github: "https://github.com/viswa15/World-around-you.git",
       live: "https://viswawikiglobe.ccbp.tech/",
@@ -234,10 +234,12 @@ export function Projects() {
           <div className="absolute bottom-0 right-1/4 w-40 h-40 bg-gradient-to-tl from-secondary/10 to-primary/10 rounded-full blur-3xl -z-10" />
         </div>
 
-        <div className="text-center mt-12">
-          <Button variant="outline" size="lg">
-            <Github className="mr-2 h-5 w-5" />
-            View All Projects on GitHub
+        <div className="flex justify-center text-center mt-12">
+          <Button variant="outline" size="lg" asChild>
+            <a href="https://github.com/viswa15" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
+                View all projects on Github
+              </a>
           </Button>
         </div>
       </div>

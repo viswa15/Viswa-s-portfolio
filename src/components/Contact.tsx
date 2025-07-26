@@ -7,6 +7,9 @@ import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import dotenv from 'dotenv'
+
+// dotenv.config()
 
 export function Contact() {
   const { toast } = useToast();
@@ -32,6 +35,10 @@ export function Contact() {
       href: "#"
     }
   ];
+
+  // const Service_id = process.env.SERVICE_ID;
+  // const template_id = process.env.TEMPLATE_ID;
+  // const user_id = process.env.USER_ID;
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
