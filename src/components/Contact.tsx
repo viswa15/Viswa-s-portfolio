@@ -7,9 +7,10 @@ import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import dotenv from 'dotenv'
+const serviceId = import.meta.env.VITE_SERVICE_ID;
+const templateId = import.meta.env.VITE_TEMPLATE_ID;
+const userId = import.meta.env.VITE_USER_ID;
 
-// dotenv.config()
 
 export function Contact() {
   const { toast } = useToast();
@@ -36,19 +37,17 @@ export function Contact() {
     }
   ];
 
-  // const Service_id = process.env.SERVICE_ID;
-  // const template_id = process.env.TEMPLATE_ID;
-  // const user_id = process.env.USER_ID;
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
+    const form = e.currentTarget;
 
+    
     emailjs.sendForm(
-      'service_n67ozi5',      // e.g., 'service_xxxxx'
-      'template_ummbtej',     // e.g., 'template_xxxxx'
-      e.currentTarget,
-      '9wc_kVBg8m0P6pNPa'       // e.g., 'user_xxxxx'
+      serviceId,      // e.g., 'service_xxxxx'
+      templateId,     // e.g., 'template_xxxxx'
+      form,
+      userId       // e.g., 'user_xxxxx'
     )
     .then(() => {
       toast({
@@ -56,7 +55,7 @@ export function Contact() {
         description: "Thank you for reaching out. I'll get back to you soon!",
         variant: "default",
       });
-      e.currentTarget.reset();
+      form.reset();
     }, (error) => {
       toast({
         title: "Failed to Send Message",
