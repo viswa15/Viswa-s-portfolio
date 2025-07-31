@@ -38,7 +38,7 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex justify-center mb-12">
             <Button size="lg" variant="secondary" className="group" asChild>
-              <a href="https://drive.google.com/file/d/14Fp3TxYuNfm1hHFUGcpI8n_9yCbh8scb/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1r6kziyN0yGkHeh-jqC250lEiRVPIM1SS/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Eye className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform duration-200" />
                 View Resume
               </a>
