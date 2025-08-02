@@ -16,6 +16,15 @@ export function Projects() {
 
   const projects = [
     {
+      title: "HealthCarePro - Doctor Appointment Booking System(Version 1.0)",
+      description: "HealthCare Pro is a user-friendly platform that allows patients to find qualified doctors, view their availability, and book appointments seamlessly. The additional features are yet to be added as it is in development phase.",
+      technologies: ["React", "Tailwind CSS","TypeScript","shadcn/ui","Vercel"],
+      github: "https://github.com/viswa15/HealthCare-Pro.git",
+      live: "https://health-care-pro.vercel.app/",
+      image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1754121790/Screenshot_2025-08-02_133139_mkafhh.png",
+      category : "Frontend"
+    },
+    {
       title: "Chatty - A Real Time Chat Application",
       description: "Chatty is a full-stack real-time consultation platform that connects users with professional consultants via video calls and live chat. The platform supports both subscription-based and pay-per-session models, allowing users to book sessions, interact with experts, and provide feedback seamlessly.",
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Zustand","Tailwind CSS","Cloudinary","Daisy UI","Render","JWT"],
