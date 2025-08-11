@@ -25,15 +25,6 @@ export function Projects() {
       category : "Frontend"
     },
     {
-      title: "Chatty - A Real Time Chat Application",
-      description: "Chatty is a full-stack real-time consultation platform that connects users with professional consultants via video calls and live chat. The platform supports both subscription-based and pay-per-session models, allowing users to book sessions, interact with experts, and provide feedback seamlessly.",
-      technologies: ["React", "Node.js", "Express.js", "MongoDB", "Socket.io", "Zustand","Tailwind CSS","Cloudinary","Daisy UI","Render","JWT"],
-      github: "https://github.com/viswa15/Chat-Application.git",
-      live: "https://chat-application-4aox.onrender.com/",
-      image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1742454050/Screenshot_2025-03-20_123031_l3abc9.png",
-      category : "Full Stack"
-    },
-    {
       title: "BeMyGuest - A Wedding Guest Booking Service",
       description: "Be My Guest is a full-stack wedding planning web application designed to help couples efficiently organize and share details of their wedding events. The platform allows users to create personalized wedding profiles, manage multi-day event details, and share ceremony guides with guests in a beautifully structured format.",
       technologies: ["React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "Stripe","Render"],
