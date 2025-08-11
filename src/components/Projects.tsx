@@ -28,9 +28,18 @@ export function Projects() {
       title: "BeMyGuest - A Wedding Guest Booking Service",
       description: "Be My Guest is a full-stack wedding planning web application designed to help couples efficiently organize and share details of their wedding events. The platform allows users to create personalized wedding profiles, manage multi-day event details, and share ceremony guides with guests in a beautifully structured format.",
       technologies: ["React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "Stripe","Render"],
-      github: "https://github.com/viswa15/Chat-Application.git",
+      github: "https://github.com/viswa15/BeMyGuest.git",
       live: "https://bemyguest-8bla.onrender.com/",
       image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1742450171/Screenshot_2025-03-20_112555_nuequs.png",
+      category : "Full Stack"
+    },
+    {
+      title: "Chatty - A Real-Time Chat Application",
+      description: "A real-time messaging platform enabling seamless one-on-one and group communication. Features include secure login, instant message delivery, live status indicators such as “online” and “typing,” emoji support, and persistent chat history. Designed with a responsive interface to ensure a smooth and engaging experience across all devices.",
+      technologies: ["React.js","TailwindCSS", "Daisy UI", "Node.js", "Express.js", "MongoDB", "Cloudinary","Render","Vercel"],
+      github: "https://github.com/viswa15/Chat-Application.git",
+      live: "https://chat-application-five-swart.vercel.app/",
+      image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1742454050/Screenshot_2025-03-20_123031_l3abc9.png",
       category : "Full Stack"
     },
     {
