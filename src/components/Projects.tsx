@@ -25,6 +25,15 @@ export function Projects() {
       category : "Frontend"
     },
     {
+      title: "Atomic Structure Explorer - Interactive Visualization of Atomic Structures",
+      description: "This project is an interactive educational module designed for Class 10 students to learn Atomic Structure in a fun, visual, and engaging way.It combines simulations, animations, quizzes, and interactive diagrams to simplify complex concepts..",
+      technologies: ["React", "Tailwind CSS","TypeScript","shadcn/ui", "Vite","Vercel"],
+      github: "https://github.com/viswa15/Atomic-Structur-Explorer.git",
+      live: "https://atomic-structur-explorer.vercel.app/",
+      image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1755955526/Screenshot_2025-08-23_185308_npiv25.png",
+      category : "Frontend"
+    },
+    {
       title: "BeMyGuest - A Wedding Guest Booking Service",
       description: "Be My Guest is a full-stack wedding planning web application designed to help couples efficiently organize and share details of their wedding events. The platform allows users to create personalized wedding profiles, manage multi-day event details, and share ceremony guides with guests in a beautifully structured format.",
       technologies: ["React.js", "Material UI", "Node.js", "Express.js", "MongoDB", "Stripe","Render"],
