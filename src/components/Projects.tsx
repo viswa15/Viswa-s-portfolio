@@ -25,6 +25,15 @@ export function Projects() {
       category : "Frontend"
     },
     {
+      title: "DeepKlarity – AI Resume Analyzer(Version 1.0)",
+      description: "Built a full-stack web app using React, Node.js, Express, and PostgreSQL, integrated with the Gemini API to analyze resumes, extract key details, and provide AI-driven improvement suggestions.",
+      technologies: ["React.jsx", "Google Gemini", "Postgres","Node.js","Express.js","Vercel", "Render"],
+      github: "https://github.com/viswa15/resume-analyzer.git",
+      live: "https://resume-analyzer-liard-nine.vercel.app/",
+      image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1757345891/Screenshot_2025-09-08_210657_uecgcz.png",
+      category : "Full Stack"
+    },
+    {
       title: "Atomic Structure Explorer - Interactive Visualization of Atomic Structures",
       description: "This project is an interactive educational module designed for Class 10 students to learn Atomic Structure in a fun, visual, and engaging way.It combines simulations, animations, quizzes, and interactive diagrams to simplify complex concepts..",
       technologies: ["React", "Tailwind CSS","TypeScript","shadcn/ui", "Vite","Vercel"],
