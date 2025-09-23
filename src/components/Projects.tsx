@@ -34,6 +34,15 @@ export function Projects() {
       category : "Full Stack"
     },
     {
+      title: "Crypto Market Tracker - Cryptocurrency Prices and Trends",
+      description: "cryptocurrency dashboard built from the ground up with a focus on clean architecture, performance, and a polished user experience.",
+      technologies: ["React.tsx", "Tailwind CSS", "TanStack Query", "Vitest", "Vercel"],
+      github: "https://github.com/viswa15/Crypto-Dashboard.git",
+      live: "https://crypto-dashboard-fyrn.vercel.app/",
+      image: "https://res.cloudinary.com/dgl0v7vwf/image/upload/v1758610237/Screenshot_2025-09-23_113815_qvhlg5.png",
+      category : "Frontend"
+    },
+    {
       title: "Atomic Structure Explorer - Interactive Visualization of Atomic Structures",
       description: "This project is an interactive educational module designed for Class 10 students to learn Atomic Structure in a fun, visual, and engaging way.It combines simulations, animations, quizzes, and interactive diagrams to simplify complex concepts..",
       technologies: ["React", "Tailwind CSS","TypeScript","shadcn/ui", "Vite","Vercel"],
