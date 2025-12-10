@@ -26,7 +26,7 @@ export function Skills() {
     {
       icon: <Server className="h-8 w-8" />,
       title: "Frameworks & Libraries",
-      skills: ["React.js", "Node.js", "Express.js", "Socket.io", "Tailwind CSS", "Redux-Toolkit","Zustand","Socket.io"]
+      skills: ["React.js", "FastAPI", "Node.js", "Express.js", "Socket.io", "Tailwind CSS", "Redux-Toolkit","Zustand","Socket.io"]
     },
     {
       icon: <Database className="h-8 w-8" />,

@@ -14,7 +14,7 @@ export function Hero() {
             <div className="relative group">
               <div className="absolute -inset-4 bg-white/20 rounded-full blur-lg group-hover:blur-xl transition-all duration-300"></div>
               <img
-                src="https://res.cloudinary.com/dgl0v7vwf/image/upload/v1753530190/me_cve22f.jpg"
+                src="https://res.cloudinary.com/dgl0v7vwf/image/upload/v1765378350/Screenshot_2025-12-10_202205_uygmt1.png"
                 alt="Profile"
                 className="relative w-32 h-32 rounded-full object-cover border-4 border-white/30 shadow-2xl group-hover:scale-105 transition-transform duration-300"
               />
@@ -27,7 +27,11 @@ export function Hero() {
           </h1>
           
           <h2 className="text-2xl md:text-3xl font-light mb-8 text-white/90">
-            Full Stack Developer
+            Full Stack Developer at Smarter Codes
+          </h2>
+
+          <h2 className="text-2xl md:text-3xl font-light mb-8 text-white/90">
+            Haryana, India
           </h2>
           
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-12 leading-relaxed">
